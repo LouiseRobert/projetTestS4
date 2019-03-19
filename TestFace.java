@@ -12,14 +12,6 @@ public class TestFace extends TestCase {
 	private static Point p2 = new Point(1, 0, 0);
 	private static Point p3 = new Point(1, 1, 0);
 	private static Point p4 = new Point(0, 1, 0);
-	private static ArrayList<Point> Lp = new ArrayList<Point>(){
-		private static final long serialVersionUID = 1L;
-	{
-		add(p1);
-		add(p2);
-		add(p3);
-		add(p4);
-		}};
 	private static Arete a1 = new Arete(p1, p2);
 	private static Arete a2 = new Arete(p2, p3);
 	private static Arete a3 = new Arete(p3, p4);
