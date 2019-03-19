@@ -71,7 +71,7 @@ public class Solide {
 
 		// On parametre le materiau utilise par le MeshView
 		PhongMaterial material = new PhongMaterial();
-		material.setDiffuseColor(Color.DARKSLATEBLUE); 
+		material.setDiffuseColor(Color.RED); 
 		meshView_solide.setDrawMode(DrawMode.FILL);
 		meshView_solide.setMaterial(material);
 
