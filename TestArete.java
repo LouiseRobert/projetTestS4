@@ -18,4 +18,47 @@ public class TestArete extends TestCase{
 	public void testGetPointA() throws Exception{
 		assertEquals(a1.getPointA(), p1);
 	}
+	
+	public void testGetPointB() throws Exception{
+		assertEquals(a1.getPointB(), p2);
+	}
+	
+	public void testCoordA() throws Exception{
+		float[] f = p1.getCoord();
+		
+		assertEquals(a1.coordA()[0], f[0]);
+		assertEquals(a1.coordA()[1], f[1]);
+		assertEquals(a1.coordA()[2], f[2]);
+	}
+	
+	public void testCoordB() throws Exception{
+		float[] f = p2.getCoord();
+		
+		assertEquals(a1.coordB()[0], f[0]);
+		assertEquals(a1.coordB()[1], f[1]);
+		assertEquals(a1.coordB()[2], f[2]);
+	}
+	
+	public void testLongueur() throws Exception{
+		double powx = Math.pow(p2.getAbscisse()-p1.getAbscisse(),2);
+		double powy = Math.pow(p2.getOrdonnee()-p1.getOrdonnee(),2);
+		double powz = Math.pow(p2.getProfondeur()-p1.getProfondeur(),2);
+		
+		double lg = Math.sqrt(powx + powy + powz);
+		
+		assertEquals(lg, a1.longueur());
+	}
+	
+	public void testMilieu() throws Exception{
+		float[] c1 = p1.getCoord();
+		float[] c2 = p2.getCoord();
+		
+		float x = (c1[0]+c2[0])/2;
+		float y = (c1[1]+c2[1])/2;
+		float z = (c1[2]+c2[2])/2;
+		
+		Point mil = new Point(x,y,z);
+		
+		assertTrue(a1.milieu().equals(mil));
+	}
 }
