@@ -94,7 +94,7 @@ public class Solide {
 		ArrayList<Face> facesOrdonnees = new ArrayList<Face>();
 		
 		// Pour chaque point, on cherche toutes les faces le possedant et on 
-		// les stocke dans l'ArrayList facesSommet
+		// les stock dans l'ArrayList facesSommet
 		for (Point p : solide.getPoint()) {		
 			for (Face f : solide.faces) {		
 				if (f.contient(p)) {
