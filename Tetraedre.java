@@ -13,6 +13,8 @@ public class Tetraedre extends Solide{
 		Point a = new Point(-30, 0,0);
 		Point b = new Point(30, 0,0);
 		Point c = new Point(0, 0,(float)(Math.sqrt(Math.pow(60,2)-Math.pow(30,2))));
+		
+		
 		// La hauteur vaut la racine carre( (cote)^2 - (2/3 de mediane)^2 )
 		float hauteur = (float)(Math.sqrt(Math.pow(60,2)-Math.pow((c.getProfondeur()*2)/3,2)));
 		Point d = new Point(0, hauteur,c.getProfondeur()/3);
