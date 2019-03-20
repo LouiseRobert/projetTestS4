@@ -70,8 +70,8 @@ public class TestFace extends TestCase {
 	}
 	
 	public void testBarycentre(){
-		Point point = new Point((int)0.5,(int)0.5, 0);
-		assertEquals(f1.barycentre(), point);	
+		Point point = new Point((float)0.5 , (float)0.5 , 0);
+		assertTrue(f1.barycentre().equals(point));	
 		System.out.println(f1.barycentre());
 	}
 	
