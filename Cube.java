@@ -58,12 +58,14 @@ public class Cube extends Solide{
 			{c, d, h, g}   
 		};
 		
+		
+		
 		for (int i = 0; i < 6; i++) {
 			Face w = new Face(ar);
 			for (int j = 0; j < 4; j++) {
 				po.add(pts[i][j]);
 			}
-			w.face(po);		
+			w.face(po);
 			po.clear();
 			lf.add(w);
 //			face_triangle.addAll(w.triangle());			
