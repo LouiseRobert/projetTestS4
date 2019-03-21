@@ -101,7 +101,7 @@ public class Face{
 			for(int i=0; i<lA.size(); i++){
 				Face d=new Face(aR);
 
-			//	Point a=new Point(barycentre.getAbscisse(),barycentre.getOrdonnee(), barycentre.getProfondeur());
+//				Point a=new Point(barycentre.getAbscisse(),barycentre.getOrdonnee(), barycentre.getProfondeur());
 //				Point b=new Point(lA.get(i).getPointA().getAbscisse(), lA.get(i).getPointA().getOrdonnee(), lA.get(i).getPointA().getProfondeur());
 //				Point c=new Point(lA.get(i).getPointB().getAbscisse(), lA.get(i).getPointB().getOrdonnee(), lA.get(i).getPointB().getProfondeur());
 				lP.add(barycentre);

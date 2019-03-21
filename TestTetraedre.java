@@ -1,5 +1,7 @@
 package de3d;
 
+
+
 import junit.framework.TestCase;
 
 public class TestTetraedre extends TestCase {
@@ -38,6 +40,14 @@ public class TestTetraedre extends TestCase {
 		assertTrue(i.getPoint().get(3).getProfondeur()==(p4.getProfondeur()));
 		
 		//On teste si les faces du tetraedre contiennent bien les points créés
+		
+//		Arete a1 = new Arete(p1, p3);
+//		Arete a2 = new Arete(p1, p4);
+//		Arete a3 = new Arete(p3, p4);
+//		Arete a4 = new Arete(p1, p2);
+//		Arete a5 = new Arete(p2, p3);
+//		Arete a6 = new Arete(p2, p4);
+		
 		
 		assertTrue(i.getFaces().get(0).contient(p1));
 		assertTrue(i.getFaces().get(0).contient(p3));

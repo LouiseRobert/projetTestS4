@@ -60,25 +60,25 @@ public class TestOctaedre extends TestCase {
 			assertTrue(i.getFaces().get(2).contient(p3));
 			assertTrue(i.getFaces().get(2).contient(p5));
 			
-//			assertTrue(i.getFaces().get(3).contient(p1));
-//			assertTrue(i.getFaces().get(3).contient(p3));
-//			assertTrue(i.getFaces().get(3).contient(p6));
-//			
-//			assertTrue(i.getFaces().get(4).contient(p1));
-//			assertTrue(i.getFaces().get(4).contient(p3));
-//			assertTrue(i.getFaces().get(4).contient(p6));
-//			
-//			assertTrue(i.getFaces().get(5).contient(p1));
-//			assertTrue(i.getFaces().get(5).contient(p3));
-//			assertTrue(i.getFaces().get(5).contient(p6));
-//			
-//			assertTrue(i.getFaces().get(6).contient(p1));
-//			assertTrue(i.getFaces().get(6).contient(p3));
-//			assertTrue(i.getFaces().get(6).contient(p6));
-//			
-//			assertTrue(i.getFaces().get(7).contient(p1));
-//			assertTrue(i.getFaces().get(7).contient(p3));
-//			assertTrue(i.getFaces().get(7).contient(p6));
+			assertTrue(i.getFaces().get(3).contient(p1));
+			assertTrue(i.getFaces().get(3).contient(p3));
+			assertTrue(i.getFaces().get(3).contient(p6));
+		
+			assertTrue(i.getFaces().get(4).contient(p3));
+			assertTrue(i.getFaces().get(4).contient(p4));
+			assertTrue(i.getFaces().get(4).contient(p5));
+			
+			assertTrue(i.getFaces().get(5).contient(p3));
+			assertTrue(i.getFaces().get(5).contient(p4));
+			assertTrue(i.getFaces().get(5).contient(p6));
+			
+			assertTrue(i.getFaces().get(6).contient(p2));
+			assertTrue(i.getFaces().get(6).contient(p4));
+			assertTrue(i.getFaces().get(6).contient(p5));
+			
+			assertTrue(i.getFaces().get(7).contient(p2));
+			assertTrue(i.getFaces().get(7).contient(p4));
+			assertTrue(i.getFaces().get(7).contient(p6));
 			
 			
 			
