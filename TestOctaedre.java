@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 public class TestOctaedre extends TestCase {
 
-	public void testTetraedre() {	
+	public void testOctaedre() {	
 			
 			// creation d'un solide octaedrique
 			
